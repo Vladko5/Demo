@@ -43,7 +43,8 @@
         "lblPrimary",
         "AngleRight",
         "AngleLeft",
-        "lblName"
+        "lblName",
+        "imgEditDone"
     ],
     "clipbounds": true,
     "containerweight": 100,
