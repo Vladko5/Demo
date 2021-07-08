@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "23dp"
+        "value": "6%"
     },
     "_margin_": [
         1,
@@ -26,7 +26,7 @@
     "_text_": "mobile",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "10%"
     },
     "_width_": {
         "type": "ref",

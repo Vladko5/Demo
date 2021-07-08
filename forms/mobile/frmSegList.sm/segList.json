@@ -5,6 +5,10 @@
     "_bounces_": true,
     "_data_": [
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -19,10 +23,14 @@
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Label"
             }
         },
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -37,10 +45,14 @@
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Label"
             }
         },
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -55,10 +67,14 @@
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Label"
             }
         },
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -73,10 +89,14 @@
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Label"
             }
         },
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -91,10 +111,14 @@
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Label"
             }
         },
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -109,10 +133,14 @@
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Label"
             }
         },
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -127,10 +155,14 @@
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Label"
             }
         },
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -145,10 +177,14 @@
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Label"
             }
         },
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -163,10 +199,14 @@
             },
             "lblStrip": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": ""
+                "text": "Label"
             }
         },
         {
+            "imgPersonFace": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "lblEmail": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Email"
@@ -255,11 +295,11 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainselection": false,
-    "rowTemplateId": "i6b61fd08b244b9baef990bea3c47a68",
+    "rowTemplateId": "e7b6f38647524dd49b1e86559e511ecb",
     "rowcounter": 9,
     "rowfocusskin": "s5a780c40ff2456785bdccafe1f0f65b",
     "rowskin": "s4fcb9a6461c476da26819faa9726346",
-    "rowtemplate": "FBox0fb22351d24e348",
+    "rowtemplate": "flxContSegList",
     "screenlevelwidget": false,
     "seccounter": 0,
     "sectionHeaderTemplateId": null,
@@ -284,6 +324,8 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
+        "flxContSegList": "flxContSegList",
+        "imgPersonFace": "imgPersonFace",
         "lblEmail": "lblEmail",
         "lblName": "lblName",
         "lblNumber": "lblNumber",

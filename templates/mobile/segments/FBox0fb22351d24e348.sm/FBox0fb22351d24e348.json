@@ -28,7 +28,8 @@
         "lblName",
         "lblNumber",
         "lblEmail",
-        "lblStrip"
+        "lblStrip",
+        "imgPersonFace"
     ],
     "clipbounds": false,
     "containerId": true,

@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "154dp"
+        "value": "20%"
     },
     "_margin_": [
         1,
@@ -22,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "s96e5feb8dfd43989eb5c6307be1b191",
-    "_text_": "Name",
+    "_skin_": "se180c1edc334784b6f2f8d0b0f0d69a",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
         "value": "135dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "60%"
     },
     "_wrapping_": 2,
     "android": {
@@ -41,7 +41,7 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "lblName",
     "info": null,
     "ipad": {

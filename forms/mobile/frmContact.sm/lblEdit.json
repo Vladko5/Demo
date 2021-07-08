@@ -2,13 +2,13 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
     "_height_": {
         "type": "ref",
         "value": "preferred"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "323dp"
     },
     "_margin_": [
         1,
@@ -22,15 +22,19 @@
         0,
         0
     ],
-    "_skin_": "sfe2ad0ff451400cab64267a1bc6991e",
+    "_right_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_skin_": "s0c093e5232d4b6bb505d4b76acbe40d",
     "_text_": "Edit",
     "_top_": {
         "type": "string",
-        "value": "13dp"
+        "value": "0dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30%"
     },
     "_wrapping_": 2,
     "android": {
@@ -41,7 +45,7 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 6,
     "id": "lblEdit",
     "info": null,
     "ipad": {
@@ -51,13 +55,19 @@
     },
     "iphone": {
         "psp": {
+            "textCopyable": false,
             "wrapping": 2
+        },
+        "textStyle": {
+            "strikeThrough": false
         }
     },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "e4be941e89c3472cbc1eed0d46e61eca",
     "name": "kony.ui.Label",
+    "paddingLocked": false,
+    "paddinginpixel": false,
     "parent": "flxContHeader",
     "pf": "frmContact",
     "retaincontentalignment": false,

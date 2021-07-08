@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "17dp"
+        "value": "6%"
     },
     "_margin_": [
         1,
@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s7d40cf8920d48debad8075481e14a66",
+    "_skin_": "s0c093e5232d4b6bb505d4b76acbe40d",
     "_text_": "Share Contact",
     "_top_": {
         "type": "string",

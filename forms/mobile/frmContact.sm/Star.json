@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "93dp"
+        "value": "24%"
     },
     "_margin_": [
         0,
@@ -17,7 +17,7 @@
         0
     ],
     "_padding_": [
-        0,
+        1,
         0,
         0,
         0
@@ -26,7 +26,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "14dp"
+        "value": "12%"
     },
     "_width_": {
         "type": "ref",
@@ -58,6 +58,7 @@
     "kuid": "cdb8751ce29349589e0366b8146da9d8",
     "masterType": 1,
     "name": "kony.ui.Label",
+    "paddinginpixel": false,
     "parent": "flxContMobile",
     "pf": "frmContact",
     "textstyle": {},

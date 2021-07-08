@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s746469c0087403a9263d13eb555ef67",
+    "_skin_": "s48db610a4dc466abfdb79d98b3578fb",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -44,7 +44,8 @@
         "AngleRight",
         "AngleLeft",
         "lblName",
-        "imgEditDone"
+        "imgEditDone",
+        "btnChangeTheme"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -61,6 +62,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "reverselayoutdirection": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

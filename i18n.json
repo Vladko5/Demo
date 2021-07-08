@@ -1,0 +1,59 @@
+{
+    "keys": [
+        "Add to Favourites",
+        "Contacts",
+        "Edit",
+        "Send Message",
+        "Share Contact"
+    ],
+    "locales": {
+        "bg": {
+            "i18nStrings": {
+                "Add to Favourites": "Добави в Любими",
+                "Contacts": "Контакти",
+                "Edit": "Редакт.",
+                "Send Message": "Изпрати Съобщение",
+                "Share Contact": "Сподели Контакт"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "es": {
+            "i18nStrings": {
+                "Add to Favourites": "Agregar a Favoritos",
+                "Contacts": "Contactos",
+                "Edit": "Editar",
+                "Send Message": "Enviar Mensaje",
+                "Share Contact": "Compartir Contacto"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "fr": {
+            "i18nStrings": {
+                "Add to Favourites": "Ajouter aux Favoris",
+                "Contacts": "Contacts",
+                "Edit": "Editer",
+                "Send Message": "Envoyer la Message",
+                "Share Contact": "Partager Contact"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

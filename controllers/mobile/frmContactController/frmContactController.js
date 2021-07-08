@@ -1,14 +1,22 @@
 define({ 
+  
+  flag: true,
 	
   onViewCreated: function() {
+    this.view.preShow = this.preShow;
     this.view.onNavigate = this.onNavigate;
   },
   
-  onNavigate: function(contactData){
+  preShow: function(){
     this.view.lblContacts.onTouchStart = this.backToContacts;
     this.view.lblEdit.onTouchStart = this.editDetails;
     this.view.imgEditDone.onTouchStart = this.finishEditing;
-
+    this.view.lblMobileNum.setEnabled(true);
+    
+    this.view.btnChangeTheme.onClick = this.onClick;
+  },
+  
+  onNavigate: function(contactData){
     this.view.lblName.text = contactData.name ? contactData.name : "N/A";
 	this.view.imgContact.src = contactData.img ? contactData.img : "option3.png";
     this.view.lblMobileNum.text = contactData.phone ? contactData.phone : "N/A";
@@ -22,23 +30,43 @@ define({
   },
   
   editDetails: function() {
-    let editMobileBx = this.view.txtBxEditMobile;
-    let mobileBx = this.view.lblMobileNum;
-    editMobileBx.text = mobileBx.text;
-    editMobileBx.isVisible = true;
-    mobileBx.isVisible = false;
-    this.view.lblEdit.isVisible = false;
-    this.view.imgEditDone.isVisible = true;
+    if(this.flag){
+      this.view.lblEdit.isVisible = false;
+      this.view.imgEditDone.isVisible = true;
+    
+      this.view.lblMobileNum.setEnabled(true);
+      this.view.lblEmail.setEnabled(true);
+      this.view.lblDetails.setEnabled(true);
+      
+      this.flag = false;
+    }else {
+      this.view.lblEdit.isVisible = true;
+      this.view.imgEditDone.isVisible = false;
+    
+      this.view.lblMobileNum.setEnabled(false);
+      this.view.lblEmail.setEnabled(false);
+      this.view.lblDetails.setEnabled(false);
+      
+      this.flag = true;
+    }
+    
   },
   
   finishEditing: function() {
-    let editMobileBx = this.view.txtBxEditMobile;
-    let mobileBx = this.view.lblMobileNum;
-    mobileBx.text = editMobileBx.text;
-    editMobileBx.isVisible = false;
-    mobileBx.isVisible = true;
     this.view.lblEdit.isVisible = true;
     this.view.imgEditDone.isVisible = false;
+  },
+  
+  onClick: function(){
+      let currTheme = kony.theme.getCurrentTheme();
+      
+      if(currTheme === "thmLight"){
+        kony.theme.setCurrentTheme("thmDark", function () {}, function () {}); 
+        this.view.btnChangeTheme.backgroundColor = "ffffff";
+      }else {
+        kony.theme.setCurrentTheme("thmLight", function () {}, function () {});
+        this.view.btnChangeTheme.backgroundColor = "000000";
+      }  
   }
 
  });

@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "277dp"
+        "value": "312dp"
     },
     "_left_": {
         "type": "string",
@@ -23,10 +23,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s746469c0087403a9263d13eb555ef67",
+    "_skin_": "s48db610a4dc466abfdb79d98b3578fb",
     "_top_": {
         "type": "string",
-        "value": "293dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -48,7 +48,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "f087a1782b3f4813aebc8dc3acfd0f61",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "flxScrCont",
     "pf": "frmContact",

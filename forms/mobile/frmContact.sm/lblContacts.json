@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "20dp"
+        "value": "5%"
     },
     "_margin_": [
         1,
@@ -22,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "sfe2ad0ff451400cab64267a1bc6991e",
+    "_skin_": "s0c093e5232d4b6bb505d4b76acbe40d",
     "_text_": "Contacts",
     "_top_": {
         "type": "string",
-        "value": "13dp"
+        "value": "0dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "60%"
     },
     "_wrapping_": 2,
     "android": {

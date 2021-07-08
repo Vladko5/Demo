@@ -1,49 +1,67 @@
 define({ 
 	segDataList: [
-      {name: "Pesho Peshev",
-      phone: "0896123321",
-      email: "pesho@abv.bg",
-      img: "dwayne.jpg",
-      notes: "dasfafafsffaqfdasf"},
-      {name: "Ivo Peshev",
-      phone: "0896111222",
-      email: "ivo@abv.bg",
-      img: "dwayne.jpg",
-      notes: "dasfafafsffaqfdasf"},
-      {name: "Moci Peshev",
-      phone: "0896113211",
-      email: "moci@abv.bg",
-      img: "dwayne.jpg",
-      notes: "dasfafafsffaqfdasf"},
-      {name: "Sasho Peshev",
-      phone: "0897876123",
-      email: "sasho@abv.bg",
-      img: "dwayne.jpg",
-      notes: "dasfafafsffaqfdasf"},
-      {name: "Miho Peshev",
-      phone: "0897345678",
-      email: "miho@abv.bg",
-      img: "dwayne.jpg",
-      notes: "dasfafafsffaqfdasf"},
-      {name: "Tisho Peshev",
-      phone: "0896111222",
-      email: "tisho@abv.bg",
-      img: "dwayne.jpg",
-      notes: "dasfafafsffaqfdasf"},
-      {name: "Pesho Peshev",
-      phone: "0896111222",
-      email: "pesho@abv.bg",
-      img: "dwayne.jpg",
-      notes: "dasfafafsffaqfdasf"},
-      {name: "Pesho Peshev",
-      phone: "0896111222",
-      email: "pesho@abv.bg",
-      img: "dwayne.jpg",
-      notes: "dasfafafsffaqfdasf"},
-      {name: "Pesho Peshev",
-      phone: "0896111222",
-      email: "pesho@abv.bg",
-      img: "dwayne.jpg"}
+      {
+        name: "H. Stoichkov",
+        phone: "0896123321",
+        email: "hristo@abv.bg",
+        img: "stoichkov.png",
+        notes: "aincu cvaincu drun"
+      },
+      {
+        name: "Lionel Messi",
+        phone: "0896111222",
+        email: "messi@abv.bg",
+        img: "messi.png",
+        notes: "meskata"
+      },
+      {
+        name: "Cosmin Moti",
+        phone: "0896113211",
+      	email: "moci@abv.bg",
+      	img: "moci.png",
+      	notes: "Ludogorec"
+      },
+      {
+        name: "Kubrat Pulev",
+      	phone: "0897876123",
+      	email: "kobra@abv.bg",
+      	img: "kobrata.png",
+      	notes: "produljavame napred"
+      },
+      {
+        name: "K. Domuschiev",
+      	phone: "0897345678",
+      	email: "kiro@abv.bg",
+      	img: "kiro.png",
+      	notes: "domus aga"
+      },
+      {
+        name: "Tisho Peshev",
+      	phone: "0896111222",
+      	email: "tisho@abv.bg",
+      	img: "dwayne.png",
+      	notes: "dasfafafsffaqfdasf"
+      },
+      {
+        name: "Pesho Peshev",
+      	phone: "0896111222",
+      	email: "pesho@abv.bg",
+      	img: "dwayne.png",
+      	notes: "dasfafafsffaqfdasf"
+      },
+      {
+        name: "Pesho Peshev",
+      	phone: "0896111222",
+      	email: "pesho@abv.bg",
+      	img: "dwayne.png",
+      	notes: "dasfafafsffaqfdasf"
+      },
+      {
+        name: "Pesho Peshev",
+      	phone: "0896111222",
+      	email: "pesho@abv.bg",
+      	img: "dwayne.png"
+      }
     ],
   
   	formatedData: [],
@@ -75,7 +93,7 @@ define({
           "lblName": {"text": contact.name},
           "lblNumber": {"text": contact.phone},
           "lblEmail": {"text": contact.email},
-          "lblImg": {"text": contact.img},
+          "imgPersonFace": {"src": contact.img},
           "lblStrip": {"width": "1%"}
         });
       });

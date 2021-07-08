@@ -6,10 +6,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "217dp"
-    },
     "_margin_": [
         1,
         1,
@@ -22,15 +18,19 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "10%"
+    },
     "_skin_": "sad7980417364a5eb8dbb789e23d0b0f",
     "_text_": "Email",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "15%"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30%"
     },
     "_wrapping_": 2,
     "android": {
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerId": true,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 6,
     "id": "lblEmail",
     "info": null,
     "ipad": {

@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "110dp"
+        "value": "20%"
     },
     "_margin_": [
         1,
@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s34e7fae4cf045858c0c4cfc529746d0",
+    "_skin_": "sbee3d99a2b74a638c8cc74c1d0a43ec",
     "_text_": "always use:",
     "_top_": {
         "type": "string",
@@ -58,6 +58,7 @@
     "isvisible": true,
     "kuid": "eaf7b1e00f544630be294f632d027c99",
     "name": "kony.ui.Label",
+    "paddinginpixel": false,
     "parent": "flxContHeader",
     "pf": "frmContact",
     "retaincontentalignment": false,

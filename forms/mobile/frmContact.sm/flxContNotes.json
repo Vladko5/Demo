@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "102dp"
+        "value": "112dp"
     },
     "_left_": {
         "type": "string",
-        "value": "7dp"
+        "value": "3%"
     },
     "_margin_": [
         0,
@@ -23,14 +23,18 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s1b2dbffa69249338735ac3fad63e190",
+    "_right_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_skin_": "scabc0379d814388bcf976fd6f3ac1a8",
     "_top_": {
         "type": "string",
-        "value": "185dp"
+        "value": "6%"
     },
     "_width_": {
         "type": "string",
-        "value": "93.39%"
+        "value": "91%"
     },
     "allboxes": [],
     "autogrowmode": 0,

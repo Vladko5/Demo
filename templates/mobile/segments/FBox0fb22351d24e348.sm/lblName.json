@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "23dp"
+        "value": "30%"
     },
     "_margin_": [
         1,
@@ -26,11 +26,11 @@
     "_text_": "Name",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "15%"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30%"
     },
     "_wrapping_": 2,
     "android": {

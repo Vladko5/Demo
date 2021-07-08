@@ -1,13 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
     "_height_": {
         "type": "string",
         "value": "87dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,10 +23,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s21b0812e2694b3aab7890ee3469df89",
+    "_skin_": "s48db610a4dc466abfdb79d98b3578fb",
     "_top_": {
         "type": "string",
-        "value": "210dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -36,28 +36,30 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxContPay",
-        "flxContEmail",
-        "flcContMessage",
+        "flxContMessage",
         "flxContCall",
-        "flxContFaceTime"
+        "flxContFaceTime",
+        "flxContEmail",
+        "flxContPay"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "defaultunit": 2,
     "enablescrolling": true,
     "id": "flxContSocial",
     "info": null,
     "iscustomlayout": false,
+    "ismodalcontainer": false,
     "isvisible": true,
     "kuid": "bcf74b3ee75049d9bd4ca0543cff55d0",
-    "layouttype": 2,
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
     "parent": "flxScrCont",
     "pf": "frmContact",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
+    "snapgridsize": "10",
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
