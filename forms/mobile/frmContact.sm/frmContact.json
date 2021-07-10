@@ -39,13 +39,14 @@
             "name": "frmContactController"
         }
     },
-    "currentLocale": "default",
+    "currentLocale": "bg",
     "desktopweb": {
         "needAppMenu": false
     },
     "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "friendlyName": "frmContact",
     "id": "frmContact",
     "info": null,
     "initdone": false,

@@ -36,11 +36,11 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxContMessage",
-        "flxContCall",
-        "flxContFaceTime",
-        "flxContEmail",
-        "flxContPay"
+        "flxContSocial1",
+        "flxContSocial2",
+        "flxContSocial3",
+        "flxContSocial4",
+        "flxContSocial5"
     ],
     "clipbounds": true,
     "containerweight": 100,

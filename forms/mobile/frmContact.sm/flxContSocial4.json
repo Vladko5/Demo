@@ -1,0 +1,101 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "63dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_skin_": "scabc0379d814388bcf976fd6f3ac1a8",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "17%"
+    },
+    "_windows8_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxContSocial": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "b576265555aa4321b80d743b2cfb965c",
+                "srcKUID": "eb6ada83a6ec4badbe99ab0169f486c9",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgSocialIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e1fcc58f98d54031ad2e06c7cbc223d5",
+                "srcKUID": "g818a419f48142af8fd945a6c18829e6",
+                "wType": "Image"
+            },
+            "src": "mail.png"
+        },
+        "lblSocialTxt": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "db9924b5b1e6424e8c3dee9b75c89c7a",
+                "srcKUID": "bfb02c984bd646878c950cea01823404",
+                "wType": "Label"
+            },
+            "text": "mail"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxContSocial4",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "b576265555aa4321b80d743b2cfb965c",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContSocial",
+    "pf": "frmContact",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "eb6ada83a6ec4badbe99ab0169f486c9",
+    "wType": "UserWidgetInstance"
+}

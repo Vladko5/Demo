@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "children": [
         "lblHome",
-        "lblEmail"
+        "txtEmail"
     ],
     "clipbounds": true,
     "containerweight": 100,

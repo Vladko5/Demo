@@ -46,6 +46,7 @@
     "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "friendlyName": "frmSegList",
     "id": "frmSegList",
     "info": null,
     "initdone": false,

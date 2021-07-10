@@ -7,10 +7,6 @@
         "type": "string",
         "value": "37dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "323dp"
-    },
     "_margin_": [
         0,
         0,
@@ -23,15 +19,19 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "10%"
+    },
     "_skin_": "s69ea1509742439faaf4c160d04b917e",
     "_src_": "acme.png",
     "_top_": {
         "type": "string",
-        "value": "13dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "38dp"
+        "value": "10%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

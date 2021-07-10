@@ -62,6 +62,7 @@
     "pf": "frmContact",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "texti18n": "Add to Favourites",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

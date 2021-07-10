@@ -62,6 +62,7 @@
     "pf": "frmContact",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "texti18n": "Share Contact",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

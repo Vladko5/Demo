@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "children": [
         "lblNotes",
-        "lblDetails"
+        "txtDetails"
     ],
     "clipbounds": true,
     "containerweight": 100,

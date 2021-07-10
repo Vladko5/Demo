@@ -62,6 +62,7 @@
     "pf": "frmContact",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "texti18n": "Send Message",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

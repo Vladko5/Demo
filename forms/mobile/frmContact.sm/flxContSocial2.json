@@ -1,0 +1,102 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "63dp"
+    },
+    "_iphone_": {},
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_skin_": "scabc0379d814388bcf976fd6f3ac1a8",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "17%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxContSocial": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f89d036c0ec441d79a9de6d572d51b9a",
+                "srcKUID": "eb6ada83a6ec4badbe99ab0169f486c9",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgSocialIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aedda610122e4c339f8d8dd27cb02e0d",
+                "srcKUID": "g818a419f48142af8fd945a6c18829e6",
+                "wType": "Image"
+            },
+            "src": "phone.png"
+        },
+        "lblSocialTxt": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b2e43508bf8b41f3bac960c0138f41c8",
+                "srcKUID": "bfb02c984bd646878c950cea01823404",
+                "wType": "Label"
+            },
+            "text": "call"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxContSocial2",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f89d036c0ec441d79a9de6d572d51b9a",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContSocial",
+    "pf": "frmContact",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "eb6ada83a6ec4badbe99ab0169f486c9",
+    "wType": "UserWidgetInstance"
+}

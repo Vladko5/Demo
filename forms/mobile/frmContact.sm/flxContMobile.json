@@ -42,7 +42,7 @@
     "children": [
         "lblMobile",
         "Star",
-        "lblMobileNum"
+        "txtMobileNum"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -42,10 +42,12 @@
         "lblAlwaysUse",
         "lblPrimary",
         "AngleRight",
+        "CopyAngleRight0cca20b3951dd49",
         "AngleLeft",
         "lblName",
         "imgEditDone",
-        "btnChangeTheme"
+        "lblNext",
+        "swtchTheme"
     ],
     "clipbounds": true,
     "containerweight": 100,

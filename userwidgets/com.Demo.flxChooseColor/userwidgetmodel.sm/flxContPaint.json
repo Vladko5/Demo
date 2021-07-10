@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "177dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "21.63%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "21.63%"
+    },
+    "_skin_": "s4f6895e7a964b83bceb0160049dd475",
+    "_top_": {
+        "type": "string",
+        "value": "40.00%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "56.89%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxContPaint",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cdb8d7cea2b947aba24278e8066d1289",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxChooseColor",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

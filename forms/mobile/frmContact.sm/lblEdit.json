@@ -72,6 +72,7 @@
     "pf": "frmContact",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "texti18n": "Edit",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

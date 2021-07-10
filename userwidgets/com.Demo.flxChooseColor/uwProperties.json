@@ -1,0 +1,70 @@
+{
+    "classname": "flxChooseColor",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ee6a8a41481640fcb3ac9f2e08d17cd1",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "paint",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "paint",
+                        "srcWidget": "btnPaint",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "a8cc1acb5ade4e22ab759069723fde02"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "blockedCategories": [
+                        "border",
+                        "shadow"
+                    ],
+                    "group": "General",
+                    "kuid": "b822b2ec4c09460ab4ab605975b03af2",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "srcWidget": "flxContPaint",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "cdb8d7cea2b947aba24278e8066d1289"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.Demo",
+    "version": "1.0.0"
+}
