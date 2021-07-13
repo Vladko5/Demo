@@ -1,44 +1,25 @@
 define(function() {
-  
-  	const colors = {
-      	red: "f50a0a",
-       	blue: "0aa3f5",
-      	green: "31f50a",
-      	default: "a8a8a8"
+
+  	var paint = function() {
+       this.view.btnPaint.skin = this._color;
     };
   
-  	const paint = function() {
-       const color = this.view.txtBxColors.text;
-      
-       switch(color) {
-         case "red":
-           this.view.flxContPaint.backgroundColor = colors.red;
-           break;
-         case "blue":
-           this.view.flxContPaint.backgroundColor = colors.blue;
-           break;
-         case "green":
-           this.view.flxContPaint.backgroundColor = colors.green;
-           break;
-         default:
-           this.view.flxContPaint.backgroundColor = colors.default;
-       }
-    };
-  
-  	const goBack = function(){
-      const ntf = new kony.mvc.Navigation("frmSegList");
-      ntf.navigate();
-    };
-	
 	return {
 		constructor: function(baseConfig, layoutConfig, pspConfig) {
-            this.view.lblBack.onTouchStart = goBack;
-          	this.view.btnPaint.onClick = paint.bind(this);
-            
+          	this._color = "sknBtnPaint";
+          	this._paint = paint;
+          
+          	this.view.btnPaint.onClick = this._paint.bind(this);    
 		},
 		//Logic for getters/setters of custom properties
-		initGettersSetters: function() {
-  		
+		initGettersSetters: function() {     
+          	defineGetter(this, 'color', function() {
+              return this._color;
+            });
+          
+          	defineSetter(this, "color", function(value){
+              this._color = value;
+            });
 		}
 	};
 });

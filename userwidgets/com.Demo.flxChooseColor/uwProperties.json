@@ -11,7 +11,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "ee6a8a41481640fcb3ac9f2e08d17cd1",
+                    "kuid": "bd9a16ab63fd4942b611fa5b0843d7e9",
                     "originalPropertyKey": "onClick",
                     "propertyIndex": 1,
                     "propertyKey": "paint",
@@ -25,38 +25,91 @@
                         "wType": "Button"
                     },
                     "srcWgtKUID": "a8cc1acb5ade4e22ab759069723fde02"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c23d9d41a85941479cd6c60278a5ca5f",
+                    "originalPropertyKey": "onTouchStart",
+                    "propertyIndex": 2,
+                    "propertyKey": "onTouchStart1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onTouchStart1",
+                        "srcWidget": "btnPaint",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "a8cc1acb5ade4e22ab759069723fde02"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d5d284255e0949a1b449e8979312aec1",
+                    "originalPropertyKey": "onTouchStart",
+                    "propertyIndex": 3,
+                    "propertyKey": "goBack",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "goBack",
+                        "srcWidget": "lblBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ifee215efdb6410db6b9155ad1872db6"
                 }
             ]
         },
         "groups": {
             "apis": [],
             "events": [],
-            "properties": [],
+            "properties": [
+                "Skin Colors"
+            ],
             "widgets": []
         },
         "properties": {
-            "custom": [],
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "a33e75b5d1604b229f75df0f8057b372",
+                    "originalPropertyKey": "color",
+                    "propertyIndex": 2,
+                    "propertyKey": "color",
+                    "pw": {
+                        "displayName": "skinColor",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a1dbf8f7a4c34587b0af00ed279441f5",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
             "passthrough": [
                 {
                     "access": "Enable",
-                    "blockedCategories": [
-                        "border",
-                        "shadow"
-                    ],
-                    "group": "General",
-                    "kuid": "b822b2ec4c09460ab4ab605975b03af2",
-                    "originalPropertyKey": "skin",
-                    "propertyIndex": 1,
-                    "propertyKey": "skin1",
+                    "group": "Skin Colors",
+                    "kuid": "h1485066b1b4499c878784b647e21ca8",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
                     "pw": {
                         "access": "readwrite",
-                        "category": "skin",
+                        "category": "look",
                         "dependentKeysKUIDs": null,
-                        "displayName": "Normal",
-                        "srcWidget": "flxContPaint",
-                        "wType": "FlexContainer"
+                        "displayName": "text",
+                        "srcWidget": "txtBxColors",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
                     },
-                    "srcWgtKUID": "cdb8d7cea2b947aba24278e8066d1289"
+                    "srcWgtKUID": "e32e4c217a154f19a6bce0e7ada21aad"
                 }
             ]
         },

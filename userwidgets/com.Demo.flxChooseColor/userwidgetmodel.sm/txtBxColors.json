@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10%"
+        "value": "10.00%"
     },
     "_margin_": [
         0,
@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_placeholder_": "Write: red, blue or green",
+    "_placeholder_": "Write: red or blue",
     "_right_": {
         "type": "string",
         "value": "10%"
@@ -31,7 +31,7 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "15%"
+        "value": "32.69%"
     },
     "_width_": {
         "type": "string",

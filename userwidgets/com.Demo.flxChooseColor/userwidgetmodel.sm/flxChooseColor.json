@@ -37,7 +37,6 @@
     "canUpdateUI": true,
     "children": [
         "txtBxColors",
-        "flxContPaint",
         "btnPaint",
         "lblBack",
         "lblArrowLeft"
