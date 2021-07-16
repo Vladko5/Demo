@@ -13,9 +13,9 @@ define(function() {
 		},
 		//Logic for getters/setters of custom properties
 		initGettersSetters: function() {     
-          	defineGetter(this, 'color', function() {
-              return this._color;
-            });
+//           	defineGetter(this, 'color', function() {
+//               return this._color;
+//             });
           
           	defineSetter(this, "color", function(value){
               this._color = value;
